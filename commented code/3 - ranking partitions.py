@@ -29,10 +29,10 @@ def endpoints(code, maxDepth):
 def getIndex(partition):
     code = getCode(partition)
     maxDepth = len(code)
-    order = 0
+    index = 0
     while len(code) > 0:
         for i in range(code[-1]):
             code[-1] = i
-            order += endpoints(code, maxDepth)
+            index += endpoints(code, maxDepth)
         del(code[-1])
-    return order
+    return index

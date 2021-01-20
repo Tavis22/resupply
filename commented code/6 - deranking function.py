@@ -116,6 +116,8 @@ def generateSolutionFromIndex(index, F):
     partition = generatePartition(partitionCode)
     return comPermFromIndex(comPermIndex, partition)
 
+print(maxIndex(14))
+
 "testing below"
 
 ##def expandPartitionList(inputPartitionList, newterm):
@@ -152,6 +154,3 @@ def generateSolutionFromIndex(index, F):
 ##
 ##for i in range(len(solutionSpace)):
 ##    print(solutionSpace[i], generateSolutionFromIndex(i, 6))
-
-
-print(maxIndex(8))

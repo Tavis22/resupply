@@ -80,6 +80,7 @@ def getSolutionIndex(solution):
         del(partitionCode[-1])
     return index
 
+print(getSolutionIndex(((3, 1,7,8,9), (2, 4,6),(5,10),(11,))))
 "____________________________________________________________________________________________________________________"
 
 "The below is for testing purposes, code imported from other sections - results, it works"

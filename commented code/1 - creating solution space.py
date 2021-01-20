@@ -38,4 +38,6 @@ def solutionSpace(F): return fullList(listOfPartitions(F))
 #for i in range(1,10):
 #   print(len(solutionSpace(i)))
 
+print(solutionSpace(4))
+
 "memory error at F = 10, at F = 9 we have a solution space of 4.6 million this growth is faster than factorial"
